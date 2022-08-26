@@ -15,5 +15,5 @@ After a model is pretrained on existing labels, the labels are being updated on 
 4.	The process is repeated until there are no more updates
 The updates were only made in a region close to already labeled pixels to preserve spatial continuity and not to allow a model to make predictions in areas far away from what it has already seen. The assumption is that pixels located close to each other are more likely to be similar which will make predictions made on those pixels more meaningful.
 
-[1] Huang, Z.; Wang, X.; Wang, J.; Liu, W.; Wang, J. Weakly-Supervised Semantic Segmentation Network with Deep Seeded Region Growing. IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2018, pp. 7014-7023.
+[1] Huang, Z.; Wang, X.; Wang, J.; Liu, W.; Wang, J. Weakly-Supervised Semantic Segmentation Network with Deep Seeded Region Growing. IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2018, pp. 7014-7023. <br />
 [2] Chen, X.; Yuan, Y.; Zeng, G.; Wang, J. Semi-Supervised Semantic Segmentation with Cross Pseudo Supervision. CVPR, 2021
